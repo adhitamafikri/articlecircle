@@ -1,0 +1,24 @@
+/* a Holder for actions e.g. Add to Library, share */
+.article-action-holder{
+	border-radius: 10px;
+	padding-left: 3%; padding-right: 3%;
+	height: 100%; 
+	width: 5%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	opacity: 0;
+	transition: transform 1s, opacity 1s;
+}
+.aah-right{
+	position: relative; left: 45%; bottom: 100%;
+}
+.aah-left{
+	position: relative; right: 45%; bottom: 100%;
+}
+.action-add{
+	border: 1px solid blue;
+	height: 15%;
+	background-color: #062F4F;
+	color: white;
+}

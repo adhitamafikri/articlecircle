@@ -1,0 +1,14 @@
+/* Animation for category link */
+.category-link:hover{
+	box-shadow: 2px 2px #D5D5D5;
+}
+
+/* Animation for articles action bar */
+.aph-left:hover .article-action-holder{
+	transform: translateX(200%);
+	opacity: 1;
+}
+.aph-right:hover .article-action-holder{
+	transform: translateX(-200%);
+	opacity: 1;
+}

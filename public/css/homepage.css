@@ -1,0 +1,69 @@
+/* Homepage */
+.article-thumbnail-left{
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 60, 0.6)), url('http://www.exteriores.gob.es/Embajadas/WASHINGTON/en/Embajada/science/PublishingImages/ciencia-portada.png') no-repeat center; 
+	background-size: 150%; 
+}
+
+.article-thumbnail-right{
+	height: 50%;
+	background-size: 120%;
+}
+.atr1{
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 60, 0.6)), url('https://i.ytimg.com/vi/vaUTIIggEis/maxresdefault.jpg') no-repeat center;
+}
+.atr2{
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 60, 0.6)), url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/introducingd.jpg') no-repeat center;
+}
+
+.article-category-Science{
+	background-color: DodgerBlue;
+}
+.article-category-Technology{
+	background-color: Teal;
+}
+.article-category-Lifestyle{
+	background-color: YellowGreen;
+}
+.article-category-text{
+	color: white;
+	padding: 3%;
+}
+
+.article-panel-holder{
+	height: 450px; 
+	display: flex; 
+	justify-content: space-between; 
+	padding-left: 0; 
+	padding-right: 0; 
+	margin-bottom: 5%;
+	/*transform: scale(0);
+	transition: all 5s cubic-bezier(0.86, 0, 0.07, 1);*/
+}
+
+
+.article-image{
+	height: 55%;
+}
+
+.article-panel{
+	width: 32%; 
+ 	padding: 0; 
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+	transition: all 3s cubic-bezier(0.86, 0, 0.07, 1);
+	transform: scaleX(0.5);
+	opacity: 0;
+}
+.article-panel.animate{
+	opacity: 1;
+	transform: scaleX(1);
+}
+.article-panel-Science{
+	border-bottom: 5px solid DodgerBlue;	
+}
+.article-panel-Technology{
+	border-bottom: 5px solid Teal;
+}
+.article-panel-Lifestyle{
+	border-bottom: 5px solid YellowGreen;
+}

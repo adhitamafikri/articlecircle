@@ -1,0 +1,25 @@
+.link-create:hover .plus-icon-holder{
+	opacity: 1;
+}
+.link-create:hover .line-horizontal{
+	transform: translate(50%) rotate(180deg);
+	opacity: 1;
+}
+.link-create:hover .line-vertical{
+	transform: translate(-50%) rotate(90deg);
+	opacity: 1;
+}
+
+.article-library-link:hover > .article-library-title{
+	box-shadow: 8px 8px 5px rgba(210, 210, 210, 0.9);
+	color: BurlyWood;
+}
+
+/* Animations with @keyframe rule */
+@keyframes pulse{
+	0%{ box-shadow: 0 0 2em white; }
+	35%{ box-shadow: 0 0 1em white; }
+	70%{ box-shadow: 0 0 3em white; }
+	75%{ box-shadow: 0 0 1em white; }
+	100%{ box-shadow: 0 0 2em white; }
+}

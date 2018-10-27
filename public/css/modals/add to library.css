@@ -1,0 +1,26 @@
+.article-library-holder{
+	height: 300px; 
+	display: flex; 
+	justify-content: 
+	space-between; 
+	flex-wrap: wrap; 
+	overflow: auto;
+}
+
+.article-library-link{
+	/*border: 1px solid red;*/
+	width: 45%;
+	height: 60%;
+	color: white;
+	margin-bottom: 2%; margin-top: 2%;
+}
+
+.article-library-title{	
+	padding: 4%;
+	background-color: #0E0B16;
+	transition: box-shadow 1s, color 2s;
+}
+.article-library-link:hover > .article-library-title{
+	box-shadow: 5px 5px 5px rgba(210, 210, 210, 0.9);
+	color: BurlyWood;
+}

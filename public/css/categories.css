@@ -1,0 +1,59 @@
+/* Sidebar */
+.sidebar-article-holder{
+	padding: 0;
+}
+.sidebar{
+	width: 20%; position: fixed; left: 0;
+	height: 100%;
+	background: linear-gradient(#062F4F, black);
+}
+.sidebar a{
+	color: white;
+}
+.category-link{
+	margin-bottom: 3%;
+	padding: 2%;
+	font-size: 1.2em;
+	transition: box-shadow 0.5s;
+}
+
+/* Articles */
+.articles-holder{
+	width: 80%;
+	margin-left: 20%;
+	background-color: #F5F5F5;
+}
+.article-panel-holder{
+	height: 250px; 
+	margin-top: 2%;
+	margin-bottom: 5%;
+	width: 90%;
+	opacity: 0;
+	transform: scaleX(0.5);
+	transition: all 2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.article-panel-holder.animate{
+	transform: scaleX(1);
+	opacity: 1;
+}
+.aph-left{
+	position: relative;
+	left: -5%;
+}
+.aph-right{
+	position: relative;
+	right: -5%;
+}
+
+/* The link panel contains link to article */
+.article-link-panel{
+	height: 100%; 
+	color: white;
+}
+.article-detail-holder{
+	width: 85%;
+	position: relative;
+	top: 40%;
+	left: -6%;
+}
+

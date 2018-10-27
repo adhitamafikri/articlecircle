@@ -1,0 +1,56 @@
+.article-library-holder{
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/* link for creating new library*/
+.link-create{
+	border: 1px solid grey;
+	background-color: #0E0B16;
+}
+.plus-icon-holder{
+	background-color: #0E0B16;
+	width: 35%;
+	height: 55%;
+	/*border: 1px solid white;*/
+	border-radius: 50%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 2s;
+	cursor: pointer;
+	animation: pulse 4s infinite ease-in-out alternate;
+}
+.line-horizontal{
+	border: 7px solid white;
+	background-color: white;
+	width: 20%;
+	opacity: 0;
+	transition: transform 3s, opacity 2s;
+}
+.line-vertical{
+	border: 7px solid white;
+	background-color: white;
+	width: 20%;
+	opacity: 0;
+	transition: transform 3s, opacity 2s;
+}
+
+/* link to access available user's libraries */
+.article-library-link{
+	/*border: 1px solid red;*/
+	width: 30%;
+	height: 200px;
+	margin-bottom: 3%;
+	color: white;
+}
+
+.article-library-title{
+	padding: 2%;
+	background-color: #0E0B16;
+	transition: box-shadow 1s, color 2s;
+}
+
